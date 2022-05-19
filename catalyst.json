@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "simple_linear_regression_tensor_flow_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

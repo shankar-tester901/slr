@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+</head>
+
+<body>
+    <div class="container" style="padding-top: 20px">
+        <div class="card">
+            <div class="card-header">
+                <strong>Linear Regression using TensorFlow.js on the client</strong>
+                <p>The data is trained on the 2x of numbers from 1 to 12</p>
+                <p> So if you give input as 3, you will get 9. If you give say 20, then 40 will be the output</p>
+            </div>
+            <div class="card-body">
+                <label>Input Value:</label> <input type="text" id="inputValue" class="form-control"><br>
+                <button type="button" class="btn btn-primary" id="predictButton" disabled>Model is being trained, please wait ...</button><br><br>
+                <h4>Result: </span>
+                </h4>
+                <h5><span class="badge badge-secondary" id="output" style="background-color: #c8f5cedd;
+                    float: left;
+                    font-size: larger;"></span></h5>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
